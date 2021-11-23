@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.container {
+  width: calc(100vw - 35%);
+  background-color: coral;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(192, 192, 192);
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  &__card-label {
+    text-align: center;
+  }
+  &__card-desc {
+    text-align: center;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+}
